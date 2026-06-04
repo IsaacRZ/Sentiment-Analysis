@@ -1,6 +1,6 @@
 # 1. Eliminar el entorno viejo
-conda deactivate
-conda env remove -n sentiment_analysis
+- > conda deactivate
+- > conda env remove -n sentiment_analysis
 
 # 2. Recrear desde el yml unificado
 conda env create -f environment.yml
