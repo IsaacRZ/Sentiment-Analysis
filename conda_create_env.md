@@ -10,3 +10,6 @@ conda activate sentiment_analysis
 
 # 4. Registrar el kernel en Jupyter
 python -m ipykernel install --user --name sentiment_analysis --display-name "Python (sentiment_analysis)"
+
+# 5. Actualizar yml
+conda env update --file environment.yml
